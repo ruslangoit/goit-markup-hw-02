@@ -5,34 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HW-02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css"
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="nav">
+        <a class="logo link" href="/index.html"><span class="logo-web">Web</span>Studio</a>
+        <ul class="menu list">
+          <li class="menu-item"><a class="link" href="/index.html">Studio</a></li>
+          <li class="menu-item"><a class="link" href="/porfolio.html">Portfolio</a></li>
+          <li class="menu-item"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <ul class="list">
+        <li><a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link phone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <!-- hero image -->
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <button class="order-btn" type="button">Order Service</button>
       </section>
 
       <section>
         <!-- about us -->
         <h2>about us</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -66,7 +70,7 @@
       <section>
         <!-- what we doing -->
         <h2>What are we doing</h2>
-        <ul>
+        <ul class="list">
           <li>
                <img
                 src="/image/website.svg"
@@ -97,7 +101,7 @@
       <section>
         <!-- our team -->
         <h2>Our Team</h2>
-        <ul>
+        <ul class="list">
           <li>
               <img
                 src="/image/product_designer.svg"
@@ -142,7 +146,7 @@
       </section>
     </main>
     <footer>
-      <a href="">WebStudio</a>
+      <a class="logo link" href="/index.html"><span class="logo-web">Web</span>Studio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

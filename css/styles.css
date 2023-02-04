@@ -1,1 +1,80 @@
-body {background-color: blueviolet;}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* =================components================= */
+body {font-family: 'Roboto' sans-serif;
+    color: #2E2F42;
+}
+h3 {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+p {font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.filter-btn {
+    color:#4D5AE5;
+    cursor: pointer;
+}
+.filter-btn:hover, 
+.filter-btn:focus {color: #FFFFFF; 
+    background-color: #404BBF}
+.order-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.order-btn:hover,
+.order-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.mail,
+.phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.logo-web {
+color: #4D5AE5;
+}
+.logo {
+font-family: 'Raleway' sans-serif;
+color: #2E2F42;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #2E2F42;
+}
