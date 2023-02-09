@@ -19,20 +19,34 @@ p {font-weight: 400;
    color: #434455;
 }
 
-.filter-btn {
-    color:#4D5AE5;
-    cursor: pointer;
-}
-.filter-btn:hover, 
-.filter-btn:focus {color: #FFFFFF; 
-    background-color: #404BBF
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+footer {
+    background: #2E2F42;
+}
 
-.menu-item:hover, 
-.menu-item:focus{
+/* header */
+
+
+
+
+.menu .link:hover, 
+.menu .link:focus{
 color: #404BBF;
-text-decoration: underline;
+
 }
 
 .menu {
@@ -49,6 +63,12 @@ text-decoration: underline;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.mail:hover, .mail:focus,
+.phone:hover, .phone:focus {
+    color: #404BBF;
+}
+
+
 .logo-web {
 color: #4D5AE5;
 }
@@ -93,7 +113,48 @@ text-transform: uppercase;
     color: #FFFFFF;
     background-color: #404BBF
 }
+/* section about-us  */
 .about-us {
+    background: #E5E5E5;
+}
+/* sectoin what we doing */
+.what-we-doing {
+    background: #E5E5E5;
+}
+/* section our team  */
+.our-team {
+    background: #F4F4FD;
+}
+
+/* portfolio-section-filter */
+
+.filter {
+    background: #E5E5E5;
+}
+
+.filter-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF
+}
+.portfolio-work {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
