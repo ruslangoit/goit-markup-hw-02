@@ -11,6 +11,9 @@ body {font-family: 'Roboto', sans-serif;
     color: #2E2F42;
 }
 
+a {
+        color: #2E2F42;
+}
 
 p {font-weight: 400;
    font-size: 16px;
@@ -39,9 +42,6 @@ footer {
 }
 
 /* header */
-
-
-
 
 .menu .link:hover, 
 .menu .link:focus{
@@ -81,6 +81,16 @@ line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+.logo-dark-bgnd {
+    font-family: 'Raleway', sans-serif;
+    color: #F4F4FD;;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 
 /*--------- Hero----------- */
 .hero {
@@ -115,15 +125,21 @@ text-transform: uppercase;
 }
 /* section about-us  */
 .about-us {
-    background: #E5E5E5;
+    background: #FFFFFF;
 }
 /* sectoin what we doing */
 .what-we-doing {
-    background: #E5E5E5;
+    background: #FFFFFF;
 }
 /* section our team  */
 .our-team {
     background: #F4F4FD;
+}
+
+/* footer */
+
+.catchphrase {
+    color: #E7E9FC;
 }
 
 /* portfolio-section-filter */
@@ -157,6 +173,7 @@ text-transform: uppercase;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
+    text-align: left;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
